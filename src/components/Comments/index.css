@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comments-container {
+  display: flex;
+}
+
+.bgc-comments-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  padding-left: 20px;
+}
+.heading {
+  font-family: 'roboto';
+}
+
+.hr-line {
+  color: red;
+  width: 2px;
+}
+
+.count-comments {
+  display: flex;
+}
+.description {
+  font-family: 'roboto';
+  color: #1e293b;
+  font-weight: 500;
+}
+.img {
+  margin-left: 110px;
+}
+.input {
+  height: 30px;
+  width: 80%;
+  border-style: solid;
+  outline: none;
+  background-color: #ffffff;
+  border-color: #dee0e3;
+  border-radius: 5px;
+  color: #1e293b;
+  font-family: 'roboto';
+  padding: 8px;
+}
+.text-area {
+  width: 80%;
+  border-style: solid;
+  outline: none;
+  background-color: #ffffff;
+  border-color: #dee0e3;
+  border-radius: 5px;
+  color: #1e293b;
+  font-family: 'roboto';
+  padding: 8px;
+}
+
+.button {
+  background-color: #0284c7;
+  border-style: none;
+  width: 30%;
+  height: 35px;
+  color: #ffffff;
+  font-family: 'roboto';
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #0284c7;
+  border-style: none;
+  width: 25px;
+  height: 22px;
+  color: #ffffff;
+  font-family: 'roboto';
+  border-radius: 2px;
+  margin-top: 15px;
+}
+.cmnt {
+  margin-left: 8px;
+  font-family: 'roboto';
+  color: #1e293b;
+  font-weight: 500;
+}
